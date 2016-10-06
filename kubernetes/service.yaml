@@ -9,6 +9,7 @@ spec:
     - port: 80
       protocol: TCP
       targetPort: 80
+      nodePort: 8000
   selector:
     app: demoapp
     version: "1.0"
